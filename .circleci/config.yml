@@ -25,15 +25,6 @@ workflows:
     - documentation:
         requires:
         - install
-    - publish:
-        requires:
-        - build
-        - style
-        - test
-        filters:
-          branches:
-            only:
-            - master
 
 jobs:
   initialize:
