@@ -9,13 +9,13 @@ A thin wrapper around a PostgreSQL connection pool providing a convenient, fool-
 ### Installing via Yarn
 
 ```
-$ yarn add @twuni/postgresql-client
+$ yarn add @twuni/pg
 ```
 
 ### Installing via NPM
 
 ```
-$ npm install @twuni/postgresql-client
+$ npm install @twuni/pg
 ```
 
 ## Developing
