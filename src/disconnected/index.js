@@ -1,4 +1,4 @@
-import Connected from '/connected';
+import Connected from '../connected';
 
 /**
  * @typedef {Object} Disconnected~ConnectParameters

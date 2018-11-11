@@ -1,3 +1,3 @@
-import Disconnected from '/disconnected';
+import Disconnected from './disconnected';
 
 export default Disconnected;

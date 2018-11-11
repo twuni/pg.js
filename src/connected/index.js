@@ -1,4 +1,4 @@
-import Disconnected from '/disconnected';
+import Disconnected from '../disconnected';
 
 /**
  * Initializes a PostgreSQL client state machine in the Connected state.

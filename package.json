@@ -1,7 +1,7 @@
 {
   "name": "@twuni/pg",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "A PostgreSQL client state machine.",
   "main": "index.js",
   "repository": "https://github.com/twuni/pg.js",
   "author": {
@@ -26,7 +26,6 @@
     "@babel/preset-env": "7.1.5",
     "@babel/register": "7.0.0",
     "babel-eslint": "10.0.1",
-    "babel-plugin-module-resolver": "3.1.1",
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
     "eslint": "5.9.0",

@@ -1,4 +1,4 @@
-import { stub } from '/spec.helpers';
+import { stub } from './spec.helpers';
 
 export const mockConnectionPool = () => {
   const MockConnectionPool = function MockConnectionPool() {

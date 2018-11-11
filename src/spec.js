@@ -1,4 +1,4 @@
-import { describe, expect, it, stub } from '/spec.helpers';
+import { describe, expect, it, stub } from './spec.helpers';
 
 import PostgreSQLClient from '.';
 
