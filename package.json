@@ -1,6 +1,6 @@
 {
   "name": "@twuni/pg",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "A PostgreSQL client state machine.",
   "main": "index.js",
   "repository": "https://github.com/twuni/pg.js",
@@ -16,24 +16,23 @@
     "documentation": "rm -fR docs; (cd src; find . -type f -name index.js | xargs jsdoc --destination ../docs --package ../package.json --readme ../README.md)",
     "lint": "eslint src",
     "start": "node lib",
-    "test": "find src -type f -name spec.js | xargs nyc --silent --check-coverage --lines 100 --per-file mocha --require @babel/register src/spec.setup.js"
+    "test": "find src -type f -name spec.js | xargs nyc --silent --check-coverage --lines 100 --per-file --require @babel/register mocha src/spec.setup.js"
   },
   "devDependencies": {
-    "@babel/cli": "7.5.5",
-    "@babel/core": "7.5.5",
-    "@babel/plugin-proposal-class-properties": "7.5.5",
-    "@babel/polyfill": "7.4.4",
-    "@babel/preset-env": "7.5.5",
-    "@babel/register": "7.5.5",
-    "babel-eslint": "10.0.3",
-    "chai": "4.2.0",
+    "@babel/cli": "7.14.8",
+    "@babel/core": "7.15.0",
+    "@babel/eslint-parser": "7.15.0",
+    "@babel/preset-env": "7.15.0",
+    "@babel/register": "7.15.3",
+    "chai": "4.3.4",
     "chai-as-promised": "7.1.1",
-    "eslint": "6.2.2",
-    "eslint-plugin-ante": "1.0.3",
-    "jsdoc": "3.6.3",
-    "mocha": "6.2.0",
-    "nyc": "14.1.1",
-    "sinon": "7.4.1",
-    "sinon-chai": "3.3.0"
+    "eslint": "7.32.0",
+    "eslint-plugin-ante": "1.0.4",
+    "jsdoc": "3.6.7",
+    "mocha": "9.0.3",
+    "nyc": "15.1.0",
+    "regenerator-runtime": "0.13.9",
+    "sinon": "11.1.2",
+    "sinon-chai": "3.7.0"
   }
 }

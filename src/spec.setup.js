@@ -1,4 +1,4 @@
-import '@babel/polyfill';
+import 'regenerator-runtime/runtime';
 
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
