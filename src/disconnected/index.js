@@ -7,6 +7,7 @@ import Connected from '../connected';
  * @property {string} host - The hostname of the database server to which to connect.
  * @property {string} password - The password to provide when connecting to the database server.
  * @property {number} port - The TCP port number on which the database server is listening.
+ * @property {string} trustedCertificates - A set of PEM-encoded trusted CA certificates for verifying the database server's TLS certificate.
  * @property {string} user - The name of the database user to use when authenticating to the database server.
  */
 
@@ -32,6 +33,7 @@ const Disconnected = function Disconnected(Pool) {
     host: parameters.host,
     password: parameters.password,
     port: parameters.port,
+    ssl: { ca: parameters.trustedCertificates },
     user: parameters.user
   })));
 
